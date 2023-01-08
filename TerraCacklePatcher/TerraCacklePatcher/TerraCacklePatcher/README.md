@@ -1,0 +1,1 @@
+Use to give Cackleheim armor the Terraheim set bonuses and stats.

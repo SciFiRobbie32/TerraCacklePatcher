@@ -1,0 +1,106 @@
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\TerraCacklePatcher.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\TerraCacklePatcher.pdb
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\0Harmony.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\assembly_valheim.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\BepInEx.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.csproj.AssemblyReference.cache
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.csproj.CoreCompileInputs.cache
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.csproj.CopyComplete
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.pdb
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\Jotunn.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\Terraheim.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\assembly_utils.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.UI.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\assembly_guiutils.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\assembly_steamworks.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher\TerraCacklePatcher\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.csproj.AssemblyReference.cache
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.csproj.CoreCompileInputs.cache
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\TerraCacklePatcher.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\TerraCacklePatcher.pdb
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\0Harmony.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_valheim.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\BepInEx.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\Jotunn.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\publicized_Terraheim.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.AnimationModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ParticleSystemModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ClothModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_utils.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.AudioModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UI.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_postprocessing.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_sunshafts.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_guiutils.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_googleanalytics.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\assembly_steamworks.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UIModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.AIModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.InputLegacyModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.AssetBundleModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.TextRenderingModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ImageConversionModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.DSPGraphModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.TLSModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UIElementsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.AndroidJNIModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.AccessibilityModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityConnectModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.Physics2DModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ClusterInputModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ClusterRendererModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.CrashReportingModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.TilemapModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.TerrainModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.VFXModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.VideoModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.VRModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.GridModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.SubsystemsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.JSONSerializeModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.LocalizationModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UNETModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.DirectorModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.GameCenterModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.SpriteMaskModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.StreamingModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.TextCoreModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.SpriteShapeModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.VehiclesModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.WindModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.XRModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.ARModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\UnityEngine.InputModule.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\BepInEx.xml
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.csproj.CopyComplete
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.dll
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\obj\Debug\TerraCacklePatcher.pdb
+C:\Users\award\source\repos\TerraCacklePatcher - Copy\TerraCacklePatcher\bin\Debug\Cackleheim.dll

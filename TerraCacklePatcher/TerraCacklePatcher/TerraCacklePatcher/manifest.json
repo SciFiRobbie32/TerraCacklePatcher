@@ -1,0 +1,10 @@
+{
+    "name": "Rowing",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/Deadheim-project/",
+    "description": "Boats go faster with more players",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1600"
+  ]
+    
+}
