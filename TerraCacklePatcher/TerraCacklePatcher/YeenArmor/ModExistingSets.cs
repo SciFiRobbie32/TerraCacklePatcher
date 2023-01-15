@@ -30,7 +30,7 @@ namespace TerraCacklePatcher.YeenArmor
 
             var setBalance = balance["leather"];
 
-            ArmorHelper.ModArmorSet("chLeather", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, true, 1);
+            ArmorHelper.ModArmorSet("chLeather", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, false, -1);
             Log.LogInfo("---------------------------------------------------------------CHLeather---------------------------------------------------------------");
 
         }
@@ -42,7 +42,7 @@ namespace TerraCacklePatcher.YeenArmor
 
             var setBalance = balance["trollLeather"];
 
-            ArmorHelper.ModArmorSet("chTrollLeather", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, true, 1);
+            ArmorHelper.ModArmorSet("chTrollLeather", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, false, -1);
             Log.LogInfo("---------------------------------------------------------------CHtrollLeather---------------------------------------------------------------");
         }
         protected static void CHBronze()
@@ -53,7 +53,7 @@ namespace TerraCacklePatcher.YeenArmor
 
             var setBalance = balance["bronze"];
 
-            ArmorHelper.ModArmorSet("chBronze", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, true, 1);
+            ArmorHelper.ModArmorSet("chBronze", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, false, -1);
             Log.LogInfo("---------------------------------------------------------------CHBronze---------------------------------------------------------------");
         }
         protected static void CHIron()
@@ -64,7 +64,7 @@ namespace TerraCacklePatcher.YeenArmor
 
             var setBalance = balance["iron"];
 
-            ArmorHelper.ModArmorSet("chIron", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, true, 1);
+            ArmorHelper.ModArmorSet("chIron", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, false, -1);
             Log.LogInfo("---------------------------------------------------------------CHIron---------------------------------------------------------------");
         }
         protected static void CHSilver()
@@ -75,7 +75,7 @@ namespace TerraCacklePatcher.YeenArmor
 
             var setBalance = balance["silver"];
 
-            ArmorHelper.ModArmorSet("chSilver", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, true, 1);
+            ArmorHelper.ModArmorSet("chSilver", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, false, -1);
             Log.LogInfo("---------------------------------------------------------------CHSilver---------------------------------------------------------------");
         }
         protected static void CHPadded()
@@ -86,7 +86,7 @@ namespace TerraCacklePatcher.YeenArmor
 
             var setBalance = balance["padded"];
 
-            ArmorHelper.ModArmorSet("chPadded", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, true, 1);
+            ArmorHelper.ModArmorSet("chPadded", ref helmet.m_itemData, ref chest.m_itemData, ref legs.m_itemData, setBalance, false, -1);
             //dictionary ingection
             //pass all the data over
             //viola
@@ -111,7 +111,7 @@ namespace TerraCacklePatcher.YeenArmor
             {
                 var setBalance = balance[bal[i]];
                 var mane = PrefabManager.Cache.GetPrefab<ItemDrop>(manes[i]);
-                ArmorHelper.ModArmorPiece(manes[i], location, ref mane.m_itemData, setBalance, true, 1);
+                ArmorHelper.ModArmorPiece(manes[i], location, ref mane.m_itemData, setBalance, false, -1);
             }
             Log.LogInfo("---------------------------------------------------------------CHManes---------------------------------------------------------------");
 
