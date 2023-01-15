@@ -34,6 +34,9 @@
     <Reference Include="0Harmony">
       <HintPath>..\..\Librarys\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="assembly_valheim">
+      <HintPath>..\..\Librarys\assembly_valheim.dll</HintPath>
+    </Reference>
     <Reference Include="BepInEx">
       <HintPath>..\..\Librarys\BepInEx.dll</HintPath>
     </Reference>
@@ -47,22 +50,8 @@
     <Reference Include="publicized_Terraheim">
       <HintPath>..\..\Librarys\publicized_assemblies\publicized_Terraheim.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
-    <Reference Include="TerraCacklePatcher">
-      <HintPath>..\..\TerraCacklePatcher(ArmorUpgrades)DLL\TerraCacklePatcher.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\Librarys\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>..\..\Librarys\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>..\..\Librarys\UnityEngine.CoreModule.dll</HintPath>

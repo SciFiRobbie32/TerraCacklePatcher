@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using TerraCacklePatcher.YeenUtility;
 using HarmonyLib;
+using TerraCacklePatcher.YeenArmor;
 
 namespace TerraCacklePatcher
 {
