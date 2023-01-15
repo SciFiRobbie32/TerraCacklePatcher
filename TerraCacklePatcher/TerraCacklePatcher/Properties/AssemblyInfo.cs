@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TerraCacklePatcher")]
-[assembly: AssemblyDescription("Apply Terraheim Armor Effects to the Cackleheim Armor in Valheim")]
+[assembly: AssemblyTitle("CackleTerraPatch-UpgradeableArmor")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TerraCacklePatcher")]
+[assembly: AssemblyProduct("CackleTerraPatch-UpgradeableArmor")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("df2d318f-7aaf-4181-8b46-aaad88ffb1f0")]
+[assembly: Guid("f23354cb-feb5-47ec-bdb0-05d20e6c9a19")]
 
 // Version information for an assembly consists of the following four values:
 //
