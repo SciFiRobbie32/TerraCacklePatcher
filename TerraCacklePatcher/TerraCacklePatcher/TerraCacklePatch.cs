@@ -17,7 +17,7 @@ namespace TerraCacklePatcher
 
         public const string PluginGUID = "SomeActualYeen.CackleheimTerraCacklePatcherPatch";
         public const string PluginName = "CackleTerraPatch";
-        public const string PluginVersion = "1.0.3";
+        public const string PluginVersion = "0.1.0";
         private readonly Harmony harmony = new Harmony("TerraCacklehiem.ValheimMod");
         public void Awake()
         {
