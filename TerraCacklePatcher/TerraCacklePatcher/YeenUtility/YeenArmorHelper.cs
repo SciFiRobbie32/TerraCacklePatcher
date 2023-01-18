@@ -6,48 +6,66 @@ using System.Linq;
 using Terraheim.Utility;
 using UnityEngine;
 using static TerraCacklePatcher.YeenUtility.YeenData;
+using static TerraCacklePatcher.YeenUtility.YeenUtilities;
+using static TerraCacklePatcher.Log;
 using static Terraheim.Utility.Data;
 
 namespace TerraCacklePatcher.YeenUtility
 {
-    public class YeenArmorHelper
+    class YeenArmorHelper
     {
         private static JObject balance = UtilityFunctions.GetJsonFromFile("balance.json");
+        public static void ModArmorPiece(string setName, string location, ref ItemDrop.ItemData piece, JToken values)
+        {
+            ArmorSet armor = ArmorSets[setName];
+            JToken tierBalance = values;
+            if(ValidArmorId(armor, location))
+            {
+                piece.m_shared.m_name = armor.HelmetName;
+                StatusEffect setEffect = ArmorHelper.GetSetEffect((string)values["setEffect"], tierBalance);
+
+                piece.m_shared.m_armor = (float)tierBalance["baseArmor"];
+                piece.m_shared.m_armorPerLevel = (float)tierBalance["armorPerLevel"];
+                if (setEffect != null)
+                    piece.m_shared.m_setStatusEffect = setEffect;
+                else
+                    Log.LogWarning($"{setName} - No set effect found for provided effect: {(string)values["setEffect"]}");
+                piece.m_shared.m_setSize = (setName != "rags" ? 3 : 2);
+                piece.m_shared.m_setName = setName;
+                if (!piece.m_shared.m_name.Contains("helmet"))
+                    piece.m_shared.m_movementModifier = (float)tierBalance["globalMoveMod"];
+
+                piece.m_shared.m_description = $"<i>{armor.ClassName}</i>\n{piece.m_shared.m_description}";
+
+                if (location == "head")
+                    piece.m_shared.m_armor += armor.HelmetArmor;
+
+                StatusEffect status = ArmorHelper.GetArmorEffect((string)values[$"{location}Effect"], tierBalance, location, ref piece.m_shared.m_description);
+
+                if ((string)values[$"{location}Effect"] == "challengemvespd")
+                    piece.m_shared.m_movementModifier += (float)values[$"{location}EffectVal"];
+
+                if (status != null)
+                    piece.m_shared.m_equipStatusEffect = status;
+                else
+                    Log.LogWarning($"{setName} {location} - No status effect found for provided effect: {(string)values[$"{location}Effect"]}");
+            }
+            else
+            {
+            }
+        }
+
         public static void YeenAddArmorPiece(string setName, string location)
         {
-            var setValue = "awa";
-            string setBalanceIntercept = balanceIntercept[setName];
-            var setBalance = balance[setBalanceIntercept];
             ArmorSet armor = ArmorSets[setName];
-            switch (location)
-            {
-                case "head":
-                    if (armor.HelmetID == "n/a")
-                    {
-                        setValue = "n/a";
-                    }
-                    break;
-                case "chest":
-                    if (armor.ChestID == "n/a")
-                    {
-                        setValue = "n/a";
-                    }
-                    break;
-                case "legs":
-                    if (armor.LegsID == "n/a")
-                    {
-                        setValue = "n/a";
-                    }
-                    break;
-            }
-            if (setValue != "n/a")
-            {
+            if (ValidArmorId(armor, location)) {
+                string setBalanceIntercept = balanceIntercept[setName];
+                var setBalance = balance[setBalanceIntercept];
                 for (int i = (int)setBalance["upgrades"]["startingTier"]; i <= 5; i++)
                 {
-                    var tierBalance = setBalance["upgrades"][$"t{i}"];
+                    //var tierBalance = setBalance["upgrades"][$"t{i}"];
                     string id = "";
                     string name = "";
-
                     switch (location)
                     {
                         case "head":
@@ -67,8 +85,9 @@ namespace TerraCacklePatcher.YeenUtility
                     }
 
                     //Create mocks for use in clones
-
                     GameObject clonedPiece = PrefabManager.Instance.CreateClonedPrefab($"{id}T{i}", id);
+
+
 
                     //Set ID so that previous armors still exist
                     string armorSetName = char.ToUpper(setName[0]) + setName.Substring(1);
@@ -76,7 +95,8 @@ namespace TerraCacklePatcher.YeenUtility
 
                     CustomItem piece = new CustomItem(clonedPiece, true);
 
-                    piece.ItemDrop.m_itemData.m_shared.m_name = $"{name}{i}";
+                    //piece.ItemDrop.m_itemData.m_shared.m_name = $"{name}{i}";
+                    piece.ItemDrop.m_itemData.m_shared.m_name = upgradedSet[i]+name;
 
                     ArmorHelper.ModArmorPiece(setName, location, ref piece.ItemDrop.m_itemData, setBalance, true, i);
 
@@ -128,7 +148,6 @@ namespace TerraCacklePatcher.YeenUtility
         }
         public static void YeenAddArmorSet(string setName)
         {
-            Log.LogInfo("---------------------------------------------------------------Adding Armor Set " + setName + "---------------------------------------------------------------");
             YeenAddArmorPiece(setName, "head");
             YeenAddArmorPiece(setName, "chest");
             YeenAddArmorPiece(setName, "legs");
@@ -136,7 +155,6 @@ namespace TerraCacklePatcher.YeenUtility
 
         public static void AddYeenTieredRecipes(string YeenArmor, string setBalance)
         {
-            Log.LogInfo("---------------------------------------------------------------Adding Tiering " + YeenArmor + "---------------------------------------------------------------");
             string setBalanceIntercept;
             try
             {
@@ -150,22 +168,21 @@ namespace TerraCacklePatcher.YeenUtility
             string armorSetName = char.ToUpper(YeenArmor[0]) + YeenArmor.Substring(1);
             for (int i = (int)balance[setBalanceIntercept]["upgrades"]["startingTier"] + 1; i <= 5; i++)
             {
-                Log.LogInfo("---------------------------------------------------------------Adding Teir " + YeenArmor + " " + i + "---------------------------------------------------------------");
-                if (armor.HelmetID != "n/a")
+                if(armor.HelmetID != "n/a")
                 {
                     HelmetRecipe(armor, armorSetName, i);
                 }
-
+                
                 if (armor.ChestID != "n/a")
                 {
                     ChestRecipe(armor, armorSetName, i);
                 }
-
+                
                 if (armor.LegsID != "n/a")
                 {
                     LegsRecipe(armor, armorSetName, i);
                 }
-
+                
             }
         }
         public static void HelmetRecipe(ArmorSet armor, string armorSetName, int i)
